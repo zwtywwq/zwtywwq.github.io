@@ -3,12 +3,12 @@
  var titleTime;
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
-         $('[rel="icon"]').attr('href', "images/favicon.png");
+         $('[rel="icon"]').attr('href', "/images/favicon.png");
          document.title = '￣へ￣你给我回来！';
          clearTimeout(titleTime);
      }
      else {
-         $('[rel="icon"]').attr('href', "images/favicon.png");
+         $('[rel="icon"]').attr('href', "/images/favicon.png");
          document.title = '(*/ω＼*)';
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
