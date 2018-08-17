@@ -3,13 +3,13 @@
  var titleTime;
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
-         $('[rel="icon"]').attr('href', "/img/TEP.ico");
-         document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
+         $('[rel="icon"]').attr('href', "images/favicon.png");
+         document.title = '￣へ￣你给我回来！';
          clearTimeout(titleTime);
      }
      else {
-         $('[rel="icon"]').attr('href', "/favicon.ico");
-         document.title = '(ฅ>ω<*ฅ) 噫又好了~' + OriginTitle;
+         $('[rel="icon"]').attr('href', "images/favicon.png");
+         document.title = '(*/ω＼*)';
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
          }, 2000);
