@@ -148,7 +148,7 @@
 <meta property="og:site_name" content="Typical Me">
 <meta property="og:description" content="网站访问量这里使用的是不蒜子 添加统计功能配置在next的主题配置文件themes/next/_config.yml中找到footer部分，添加counter，这个可以自己命名，只要相对应就可以">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-19T14:24:37.270Z">
+<meta property="og:updated_time" content="2018-08-19T15:12:47.611Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo + NexT主题美化">
 <meta name="twitter:description" content="网站访问量这里使用的是不蒜子 添加统计功能配置在next的主题配置文件themes/next/_config.yml中找到footer部分，添加counter，这个可以自己命名，只要相对应就可以">
@@ -406,7 +406,7 @@
                 
               
 
-              <time title="创建时间：2018-08-19 21:41:27 / 修改时间：22:24:37" itemprop="dateCreated datePublished" datetime="2018-08-19T21:41:27+08:00">2018-08-19</time>
+              <time title="创建时间：2018-08-19 21:41:27 / 修改时间：23:12:47" itemprop="dateCreated datePublished" datetime="2018-08-19T21:41:27+08:00">2018-08-19</time>
             
 
             
@@ -480,8 +480,10 @@
 <h2 id="文章阅读量"><a href="#文章阅读量" class="headerlink" title="文章阅读量"></a>文章阅读量</h2><p>使用LeanCloud实现Hexo博客文章的浏览数统计功能</p>
 <p><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/LEANCLOUD-COUNTER-SECURITY.md" target="_blank" rel="noopener">官方参考及安全性配置</a></p>
 <h2 id="浏览文章时显示浏览进度"><a href="#浏览文章时显示浏览进度" class="headerlink" title="浏览文章时显示浏览进度"></a>浏览文章时显示浏览进度</h2><p>主题设置文件查找<code>scrollpercent</code>修改为<code>true</code>：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># Scroll percent label in b2t button.</span><br><span class="line">scrollpercent: true</span><br></pre></td></tr></table></figure></p>
-<h2 id="数学公式的渲染"><a href="#数学公式的渲染" class="headerlink" title="数学公式的渲染"></a>数学公式的渲染</h2><p>测试<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">M = \dfrac&#123;1&#125;&#123;2L&#125;\sum_&#123;i,j=1&#125;^&#123;N&#125;(A_&#123;ij&#125;-\dfrac&#123;k_i k_j&#125;&#123;2L&#125;)\delta c_i,c_j</span><br></pre></td></tr></table></figure></p>
-<h2 id="打赏"><a href="#打赏" class="headerlink" title="打赏"></a>打赏</h2><p>找到主题配置文件的<code>Reward</code>字段，添加信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Reward</span><br><span class="line">#reward_comment: Donate comment here</span><br><span class="line">wechatpay: /images/wechatpay.png</span><br><span class="line">alipay: /images/alipay.jpg</span><br></pre></td></tr></table></figure></p>
+<h2 id="数学公式的渲染"><a href="#数学公式的渲染" class="headerlink" title="数学公式的渲染"></a>数学公式的渲染</h2><p><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/MATH.md" target="_blank" rel="noopener">官方参考</a><br>另外补充一点，就是需要在博客md文件开头加上<code>mathjax: true</code><br>测试：</p>
+<script type="math/tex; mode=display">\begin{equation}
+e=mc^2
+\end{equation}\label{eq1}</script><h2 id="打赏"><a href="#打赏" class="headerlink" title="打赏"></a>打赏</h2><p>找到主题配置文件的<code>Reward</code>字段，添加信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Reward</span><br><span class="line">#reward_comment: Donate comment here</span><br><span class="line">wechatpay: /images/wechatpay.png</span><br><span class="line">alipay: /images/alipay.jpg</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -1302,6 +1304,37 @@
   
 
   
+  
+
+  
+  
+
+  
+    
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      TeX: {equationNumbers: { autoNumber: "AMS" }}
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
+  
+
 
   
   
