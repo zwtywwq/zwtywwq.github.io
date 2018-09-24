@@ -140,24 +140,25 @@
 
 
 
-  <meta name="description" content="大江东走，不待流年">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="https://zwtywwq.github.io/tags/index.html">
+  <meta name="description" content="前段时间在win 10上安装了Tensorflow，在这里记录下安装过程和配置情况。 安装Anaconda在网上下载Anaconda3的安装包，右键Anaconda3-5.2.0-Windows-x86_64，选择使用管理员模式运行，选择安装到当前计算机的所有用户上，安装python3.6以及加入PATH 在安装完成后可以在Anaconda Prompt中输入命令conda update cond">
+<meta name="keywords" content="Tensorflow,备忘,有坑">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Win10安装Tensorflow(GPU)">
+<meta property="og:url" content="https://zwtywwq.github.io/2018/09/24/Win10安装Tensorflow-GPU/index.html">
 <meta property="og:site_name" content="Typical Me">
-<meta property="og:description" content="大江东走，不待流年">
+<meta property="og:description" content="前段时间在win 10上安装了Tensorflow，在这里记录下安装过程和配置情况。 安装Anaconda在网上下载Anaconda3的安装包，右键Anaconda3-5.2.0-Windows-x86_64，选择使用管理员模式运行，选择安装到当前计算机的所有用户上，安装python3.6以及加入PATH 在安装完成后可以在Anaconda Prompt中输入命令conda update cond">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-17T10:31:26.045Z">
+<meta property="og:updated_time" content="2018-09-24T13:03:35.338Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="大江东走，不待流年">
+<meta name="twitter:title" content="Win10安装Tensorflow(GPU)">
+<meta name="twitter:description" content="前段时间在win 10上安装了Tensorflow，在这里记录下安装过程和配置情况。 安装Anaconda在网上下载Anaconda3的安装包，右键Anaconda3-5.2.0-Windows-x86_64，选择使用管理员模式运行，选择安装到当前计算机的所有用户上，安装python3.6以及加入PATH 在安装完成后可以在Anaconda Prompt中输入命令conda update cond">
 
 
 
 
 
 
-  <link rel="canonical" href="https://zwtywwq.github.io/tags/"/>
+  <link rel="canonical" href="https://zwtywwq.github.io/2018/09/24/Win10安装Tensorflow-GPU/"/>
 
 
 
@@ -167,7 +168,7 @@
   };
 </script>
 
-  <title>tags | Typical Me</title>
+  <title>Win10安装Tensorflow(GPU) | Typical Me</title>
   
 
 
@@ -263,7 +264,7 @@
         
         
           
-          <li class="menu-item menu-item-tags menu-item-active">
+          <li class="menu-item menu-item-tags">
     <a href="/tags/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
   </li>
@@ -299,25 +300,6 @@
 
   
     
-
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
 
   
 
@@ -368,76 +350,245 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zwtywwq.github.io/2018/09/24/Win10安装Tensorflow-GPU/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张问淘">
+      <meta itemprop="description" content="大江东走，不待流年">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Typical Me">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">tags</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                
-                
-                  
-                    
-                  
-                
-                  
-                    
-                  
-                
-                  
-                    
-                  
-                
-                  
-                    
-                  
-                
-                  
-                    
-                  
-                
-                  
-                    
-                  
-                
-                目前共计 6 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Tensorflow/" style="font-size: 12px; color: #ccc">Tensorflow</a> <a href="/tags/个性化/" style="font-size: 12px; color: #ccc">个性化</a> <a href="/tags/博客/" style="font-size: 12px; color: #ccc">博客</a> <a href="/tags/备忘/" style="font-size: 12px; color: #ccc">备忘</a> <a href="/tags/有坑/" style="font-size: 12px; color: #ccc">有坑</a> <a href="/tags/美化/" style="font-size: 12px; color: #ccc">美化</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">Win10安装Tensorflow(GPU)
+              
+            
+          </h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-09-24 21:01:31 / 修改时间：21:03:35" itemprop="dateCreated datePublished" datetime="2018-09-24T21:01:31+08:00">2018-09-24</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习/" itemprop="url" rel="index"><span itemprop="name">学习</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/09/24/Win10安装Tensorflow-GPU/" class="leancloud_visitors" data-flag-title="Win10安装Tensorflow(GPU)">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>前段时间在win 10上安装了Tensorflow，在这里记录下安装过程和配置情况。</p>
+<h2 id="安装Anaconda"><a href="#安装Anaconda" class="headerlink" title="安装Anaconda"></a>安装Anaconda</h2><p>在网上下载Anaconda3的安装包，右键<code>Anaconda3-5.2.0-Windows-x86_64</code>，选择使用管理员模式运行，选择安装到当前计算机的所有用户上，安装<code>python3.6</code>以及加入<code>PATH</code></p>
+<p>在安装完成后可以在<code>Anaconda Prompt</code>中输入命令<code>conda update conda</code>更新conda，输入命令<code>conda upgrade --all</code>来更新所有包</p>
+<h2 id="安装Visual-Studio-2017"><a href="#安装Visual-Studio-2017" class="headerlink" title="安装Visual Studio 2017"></a>安装Visual Studio 2017</h2><p>因为如果要使用CUDA，需要Visual Studio。</p>
+<h2 id="CUDA-9-0安装"><a href="#CUDA-9-0安装" class="headerlink" title="CUDA 9.0安装"></a>CUDA 9.0安装</h2><p><a href="https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&amp;target_arch=x86_64&amp;target_version=10&amp;target_type=exelocal" target="_blank" rel="noopener">CUDA 9.0下载链接</a></p>
+<p>下载对应版本安装包安装即可。</p>
+<p>在安装时报错Visual Studio Integration Fail的话，可以参考下面两个链接中的解决方案：</p>
+<p><a href="https://www.zhihu.com/question/276491276" target="_blank" rel="noopener">1</a></p>
+<p><a href="https://stackoverflow.com/questions/50042186/cannot-install-cuda-toolkit-9-1-85-on-windows-7-64-bit" target="_blank" rel="noopener">2</a></p>
+<p>验证CUDA安装是否成功：打开Anaconda promt，输入：nvcc -V</p>
+<h2 id="环境变量配置"><a href="#环境变量配置" class="headerlink" title="环境变量配置"></a>环境变量配置</h2><p>需要做两件事：</p>
+<ul>
+<li>确认系统变量中CUDA_PATH和CUDA_PATH_V9.0已经存在</li>
+<li>在用户变量中，新建PathCUDA，值为上面两个路径后再加\bin</li>
+</ul>
+<h2 id="CUDNN-7-0-5安装"><a href="#CUDNN-7-0-5安装" class="headerlink" title="CUDNN 7.0.5安装"></a>CUDNN 7.0.5安装</h2><p><a href="https://developer.nvidia.com/rdp/cudnn-download" target="_blank" rel="noopener">cuDNN下载链接</a></p>
+<p>注意选择对应版本：7.0.5、CUDA 9.0、win10</p>
+<p>将文件夹里三个文件夹中的内容分别拷贝到CUDA的安装目录的对应的文件夹</p>
+<h2 id="Tensorflow-1-10安装"><a href="#Tensorflow-1-10安装" class="headerlink" title="Tensorflow 1.10安装"></a>Tensorflow 1.10安装</h2><p>打开Anaconda Prompt，创建一个名为tensorflow的环境，命令如下<code>conda create -n tensorflow python=3.6</code></p>
+<p>开启环境<code>activate tensorflow</code></p>
+<p>输入命令<code>pip install --ignore-installed --upgrade tensorflow-gpu</code>进行安装</p>
+<p>验证：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">import tensorflow as tf</span><br><span class="line">&gt;&gt;&gt; hello = tf.constant(&apos;Hello, TensorFlow!&apos;)</span><br><span class="line">&gt;&gt;&gt; sess = tf.Session()</span><br><span class="line">&gt;&gt;&gt; print(sess.run(hello))</span><br></pre></td></tr></table></figure>
+<p>若输出<code>b&#39;Hello, TensorFlow!&#39;</code>即为成功</p>
+<p>检测tensorflow的确用gpu来做运算<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Creates a graph.</span><br><span class="line">a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name=&apos;a&apos;)</span><br><span class="line">b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name=&apos;b&apos;)</span><br><span class="line">c = tf.matmul(a, b)</span><br><span class="line"># Creates a session with log_device_placement set to True.</span><br><span class="line">sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))</span><br><span class="line"># Runs the op.</span><br><span class="line">print(sess.run(c))</span><br></pre></td></tr></table></figure></p>
+<p>在输出中<code>device:GPU:0</code>的意思就是说该运算用到了GPU</p>
+
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="张问淘 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="张问淘 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Tensorflow/" rel="tag"><i class="fa fa-tag"></i> Tensorflow</a>
+          
+            <a href="/tags/备忘/" rel="tag"><i class="fa fa-tag"></i> 备忘</a>
+          
+            <a href="/tags/有坑/" rel="tag"><i class="fa fa-tag"></i> 有坑</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/09/24/Win10安装Tensorflow(GPU)/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
@@ -467,8 +618,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -588,6 +748,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Anaconda"><span class="nav-text">安装Anaconda</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Visual-Studio-2017"><span class="nav-text">安装Visual Studio 2017</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CUDA-9-0安装"><span class="nav-text">CUDA 9.0安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境变量配置"><span class="nav-text">环境变量配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CUDNN-7-0-5安装"><span class="nav-text">CUDNN 7.0.5安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tensorflow-1-10安装"><span class="nav-text">Tensorflow 1.10安装</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1087,43 +1263,42 @@
   
   <script>
     
-    function showTime(Counter) {
-      var entries = [];
+    function addCount(Counter) {
       var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
 
-      $visitors.each(function () {
-        entries.push( $(this).attr("id").trim() );
-      });
-
-      Counter('get', '/classes/Counter', { where: JSON.stringify({ url: { "$in": entries } }) })
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
         .done(function ({ results }) {
-          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
-
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.url;
-            var time = item.time;
-            var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for(var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if( countSpan.text() == '') {
-              countSpan.text(0);
-            }
+          if (results.length > 0) {
+            var counter = results[0];
+            
+            Counter('put', `/classes/Counter/${counter.objectId}`, JSON.stringify({ time: { "__op":"Increment", "amount":1 } }))
+            
+            .done(function () {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(counter.time + 1);
+            })
+            
+            .fail(function ({ responseJSON }) {
+                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
+            })
+          } else {
+            
+              Counter('post', '/classes/Counter', JSON.stringify({ title: title, url: url, time: 1}))
+                .done(function () {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(1);
+                })
+                .fail(function () {
+                  console.log('Failed to create');
+                });
+            
           }
         })
-        .fail(function ({ responseJSON }) {
-          console.log("LeanCloud Counter Error: " + responseJSON.code + " " + responseJSON.error);
-        });
+      .fail(function ({ responseJSON }) {
+        console.log('LeanCloud Counter Error:' + responseJSON.code + " " + responseJSON.error);
+      });
     }
     
 
@@ -1143,9 +1318,7 @@
             });
           };
           
-          if ($('.post-title-link').length >= 1) {
-            showTime(Counter);
-          }
+          addCount(Counter);
           
         })
     });
