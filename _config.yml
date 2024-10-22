@@ -21,7 +21,7 @@ repository               : "zwtywwq/zwtywwq.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Wentao Zhang"
   pronouns         : # example: "she/her"  
   bio              : "si vis pacem, para bellum"
