@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Since July 2021, I have been a AI R&D Staff at Webank. Previously, I received my MS degree and BS degree from University of Science and Technology of China (USTC) in 2021 and 2018. 
+Since July 2021, I have been an AI R&D Staff at Webank. Previously, I received my MS degree and BS degree from University of Science and Technology of China (USTC) in 2021 and 2018. 
 
 Publications
 ======
