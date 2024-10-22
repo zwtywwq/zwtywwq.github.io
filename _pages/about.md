@@ -16,7 +16,7 @@ Wentao Zhang, Yuan Fang, Zemin Liu, Min Wu and Xinming Zhang. In IEEE TKDE 34(3)
 [[Paper]](https://github.com/smufang/meta-tail2vec) [[Code]](https://github.com/smufang/meta-tail2vec)
 2. Towards Locality-Aware Meta-Learning of Tail Node Embeddings on Networks.  
 Zemin Liu*, Wentao Zhang*, Yuan Fang, Xinming Zhang and Steven C. H. Hoi. In CIKM 2020, pp. 975--984.  
-[[Paper]](https://github.com/smufang/meta-tail2vec) [[Code]](https://github.com/smufang/meta-tail2vec) [[Slides]](https://github.com/smufang/meta-tail2vec)
+[[Paper]](http://zwtywwq.github.io/files/CIKM20_meta-tail2vec.pdf) [[Code]](https://github.com/smufang/meta-tail2vec) [[Slides]](https://github.com/smufang/meta-tail2vec)
 3. Locality-Aware Tail Node Embeddings on Homogeneous and Heterogeneous Networks.  
 Zemin Liu^, Yuan Fang*, Wentao Zhang#, Xinming Zhang* and Steven C. H. Hoi. In IEEE TKDE 36(6), 2023, pp. 2517--2532.  
 [[Paper]](https://github.com/smufang/meta-tail2vec) [[Code]](https://github.com/smufang/meta-tail2vec)
