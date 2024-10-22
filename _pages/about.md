@@ -23,11 +23,9 @@ Zemin Liu^, Yuan Fang*, Wentao Zhang#, Xinming Zhang* and Steven C. H. Hoi. In I
 
 Work Experience
 ======
-
 Webank
 ------
-- AI R&D staff, Jul. 2021 – Aug. 2024
-
+- AI R&D staff, Jul. 2021 – Aug. 2024  
 Singapore Management University
 ------
 - Visiting research student, Aug. 2019 – Apr. 2020
