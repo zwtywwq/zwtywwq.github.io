@@ -23,10 +23,10 @@ Zemin Liu^, Yuan Fang*, Wentao Zhang#, Xinming Zhang* and Steven C. H. Hoi. In I
 
 Work Experience
 ======
+
 Webank
 ------
 - AI R&D staff, Jul. 2021 – Aug. 2024
-- B.S. in Computer Science from the University of Science and Technology of China, 2006.
 
 Singapore Management University
 ------
