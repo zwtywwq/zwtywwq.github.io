@@ -24,8 +24,8 @@ Zemin Liu, Yuan Fang, **Wentao Zhang**, Xinming Zhang and Steven C. H. Hoi. In I
 Work Experience
 ======
 **Webank**
-- AI R&D Intern, Mar. 2021 – Jul. 2021
 - AI R&D Staff, Jul. 2021 – Aug. 2024
+- AI R&D Intern, Mar. 2021 – Jul. 2021
 
 **Singapore Management University**
 - Visiting Research Student, Aug. 2019 – Apr. 2020
